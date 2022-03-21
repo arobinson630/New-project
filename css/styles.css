@@ -1,0 +1,24 @@
+img {
+    width: 150px
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.main {
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .flex-container {
+        flex-direction: column;
+
+    }
+    .main{
+        width: 100%;
+    }
+}
